@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    color: #575657;
+}
+
+strong{
+    color: black;
+}
+
+header {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin: 40px;
+}
+
+.introducao img {
+    max-width: 100%;
+}
+
+.introducao article{
+    display: grid;
+    align-self: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+.introducao h1{
+    font-size: 3.5rem;
+}
+
+.introducao p{
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
+.experiencia{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin: 40px;
+}
+
+.experiencia h2{
+    font-size: 5rem;
+    color: #DDDCDD;
+    word-break: break-all;
+    text-transform: uppercase;
+}
+
+.historico{
+    display: grid;
+    gap: 40px;
+}
+
+.historico > p{
+    font-size: 1.5rem;
+}
+
+.historico > ul{
+    display: grid;
+    gap: 20px;
+}
+
+.historico-itens{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F5F4F6;
+    padding: 20px 30px;
+    border-radius: 4px;
+}
+
+.projetos-itens{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.projetos-itens li{
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+}
