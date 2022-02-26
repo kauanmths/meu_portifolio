@@ -1,17 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
-
-body{
-    font-family: 'Fira Sans', sans-serif;
-}
-
-ul{
-    list-style: none;
-}
+@import url('global.css');
+@import url('header.css');
 
 p{
     color: #575657;
@@ -44,10 +32,6 @@ nav a{
     grid-template-columns: 1fr 2fr;
     gap: 30px;
     margin: 40px;
-}
-
-.introducao img {
-    max-width: 100%;
 }
 
 .introducao article{
