@@ -1,5 +1,6 @@
 @import url('global.css');
 @import url('header.css');
+@import url('introducao.css');
 
 p{
     color: #575657;
@@ -7,29 +8,6 @@ p{
 
 strong {
     color: black;
-}
-
-.introducao {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 30px;
-    margin: 40px;
-}
-
-.introducao article{
-    display: grid;
-    align-self: center;
-    padding: 10px;
-    gap: 15px;
-}
-
-.introducao h1{
-    font-size: 3.5rem;
-}
-
-.introducao p{
-    margin: 5px;
-    font-size: 1.5rem;
 }
 
 .experiencia {
