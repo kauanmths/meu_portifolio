@@ -9,24 +9,6 @@ strong {
     color: black;
 }
 
-header {
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    display: flex;
-    gap: 40px;
-}
-
-nav a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
 .introducao {
     display: grid;
     grid-template-columns: 1fr 2fr;
