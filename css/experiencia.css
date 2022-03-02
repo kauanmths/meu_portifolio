@@ -1,0 +1,92 @@
+#experiencia {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+#experiencia .subtitulo{
+    color: #DDDCDD;
+}
+
+.experiencia-detalhes > p{
+    font-size: 1.5rem;
+    max-width: 40ch;
+    margin-bottom: 60px;
+}
+
+.trabalhos{
+    display: grid;
+    gap:  10px 20px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+.trabalhos h3{
+    position: relative;
+}
+
+.trabalhos h3::before{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 20px;
+    background-image: linear-gradient(#b6f829, #67dd0a);
+    top: 0px;
+    left: -34px;
+}
+
+.trabalhos-titulo {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    font-weight: bold;
+  }
+  
+.trabalhos-descricao {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #525252;
+}
+
+.trabalhos-habilidades{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.trabalhos-habilidades li{
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+@media (max-width: 800px){
+    #experiencia {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    #experiencia .subtitulo{
+        color: black;
+    }
+
+    .experiencia-detalhes > p{
+        font-size: 1.25rem;
+    }
+
+}
+
+@media (max-width: 500px){
+    .trabalhos{
+        grid-template-columns: 1fr;
+    }
+}

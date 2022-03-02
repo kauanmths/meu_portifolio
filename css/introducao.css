@@ -8,7 +8,7 @@
     gap: 100px;
 }
 
-.introducao article{
+.introducao div{
     display: grid;
     align-content: center;
     gap: 15px;

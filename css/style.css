@@ -1,6 +1,7 @@
 @import url('global.css');
 @import url('header.css');
 @import url('introducao.css');
+@import url('experiencia.css');
 
 p{
     color: #575657;
@@ -8,55 +9,6 @@ p{
 
 strong {
     color: black;
-}
-
-.experiencia {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 30px;
-    margin: 40px;
-}
-
-.experiencia h2{
-    font-size: 5rem;
-    color: #DDDCDD;
-    word-break: break-all;
-    text-transform: uppercase;
-}
-
-.historico{
-    display: grid;
-    gap: 40px;
-}
-
-.historico > p{
-    font-size: 1.5rem;
-}
-
-.historico > ul{
-    display: grid;
-    gap: 20px;
-}
-
-.historico-itens{
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    background-color: #F5F4F6;
-    padding: 20px 30px;
-    border-radius: 4px;
-}
-
-.projetos-itens{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.projetos-itens li{
-    background-color: white;
-    border-radius: 4px;
-    padding: 10px;
 }
 
 .formacao {
