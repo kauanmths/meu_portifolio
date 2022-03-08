@@ -1,0 +1,45 @@
+#contato{
+    background-color: black;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding: 120px 20px 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+}
+
+.footer-container p {
+    font-size: 1.5rem;
+    color: #cccccc;
+    align-self: center;
+}
+
+.footer-container li{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-container a{
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width:800px){
+    .footer-container{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-container p{
+        font-size: 1.25rem;
+    }
+
+    .footer-container li{
+        font-size: 1.5rem;
+    }
+}

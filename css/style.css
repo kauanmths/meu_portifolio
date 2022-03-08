@@ -3,11 +3,4 @@
 @import url('introducao.css');
 @import url('experiencia.css');
 @import url('formacao.css');
-
-p{
-    color: #575657;
-}
-
-strong {
-    color: black;
-}
+@import url('footer.css');

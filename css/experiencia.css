@@ -11,7 +11,12 @@
     color: #DDDCDD;
 }
 
+#experiencia strong {
+    color: black;
+}
+
 .experiencia-detalhes > p{
+    color: #575657;
     font-size: 1.5rem;
     max-width: 40ch;
     margin-bottom: 60px;
