@@ -1,0 +1,149 @@
+#formacao{
+   background-color: #141414;
+   position: relative;
+}
+
+.formacao-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    padding: 120px 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.formacao-container::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    background: url('/img/detalhe.svg') no-repeat center center;
+    width: 130px;
+    height: 100px;
+    bottom: -50px;
+    left: 20px;
+}
+
+#formacao .subtitulo{
+    max-width: 5ch;
+}
+.formacao-container p{
+    font-size: 1.5rem;
+    color: #9A999A;
+    margin-bottom: 60px;
+    max-width: 40ch;
+}
+
+.formacao-container strong{
+    color: white;
+}
+
+.formacao-itens{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.formacao-itens li{
+    flex: 1;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.formacao-tipo{
+    font-size: .875rem;
+}
+
+.formacao-curso{
+    font-size: 1.125rem;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.formacao-curso::before{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    background-image: linear-gradient(#b6f829, #67dd0a);
+    width: 4px;
+    height: 20px;
+    left: -24px;
+}
+
+#formacao span {
+    color: #9A999A;
+}
+
+.cursos-itens h4{
+    position: relative;
+    font-size: 0.875rem;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.cursos-itens h4::before{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    left: -35px;
+    top: -5px;
+}
+
+.cursos-itens li{
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.progamacao{
+    margin-bottom: 60px;
+}
+
+.progamacao-titulo::before{
+    background: url('/img/cursos.svg') no-repeat center center;
+}
+
+.idiomas-titulo::before{
+    background: url('/img/idiomas.svg') no-repeat center center;
+}
+
+.progamacao-cursos li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.idiomas-titulo{
+    position: relative;
+}
+
+@media (max-width: 800px){
+    .formacao-container{
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 60px 40px;
+    }
+
+    #formacao .subtitulo{
+        color: white;
+    }
+    .formacao-container p{
+        font-size: 1.25rem;
+    }
+
+    .cursos-itens h4::before{
+        display: block;
+        left: 0;
+        top: -35px;
+    }
+
+    .cursos-itens li{
+        font-size: 1rem;
+    }
+}
