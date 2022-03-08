@@ -28,7 +28,7 @@
     display: inline-block;
     width: 130px;
     height: 100px;
-    background: url(/img/detalhe.svg) no-repeat center;
+    background: url('../img/detalhe.svg') no-repeat center;
     position: absolute;
     left: -45px;
     z-index: -1;

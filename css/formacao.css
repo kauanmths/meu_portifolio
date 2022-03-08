@@ -108,11 +108,11 @@
 }
 
 .progamacao-titulo::before{
-    background: url('/img/cursos.svg') no-repeat center center;
+    background: url('../img/cursos.svg') no-repeat center center;
 }
 
 .idiomas-titulo::before{
-    background: url('/img/idiomas.svg') no-repeat center center;
+    background: url('../img/idiomas.svg') no-repeat center center;
 }
 
 .progamacao-cursos li{
