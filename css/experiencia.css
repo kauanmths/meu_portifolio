@@ -15,6 +15,11 @@
     color: black;
 }
 
+#experiencia a{
+    color: black;
+    text-decoration: none;
+}
+
 .experiencia-detalhes > p{
     color: #575657;
     font-size: 1.5rem;
